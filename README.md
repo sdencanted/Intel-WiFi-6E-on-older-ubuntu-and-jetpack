@@ -28,8 +28,8 @@ wget http://launchpadlibrarian.net/681873109/dkms_3.0.10-7ubuntu2.1_all.deb
 Get the wifi drivers from https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/. For AX210 `iwlwifi-ty-a0-gf-a0-83.ucode` and `iwlwifi-ty-a0-gf-a0.pnvm` were used.
 
 ```bash
-wget https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/iwlwifi-ty-a0-gf-a0-83.ucode
-wget https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/iwlwifi-ty-a0-gf-a0.pnvm
+wget https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/plain/iwlwifi-ty-a0-gf-a0-83.ucode
+wget https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/plain/iwlwifi-ty-a0-gf-a0.pnvm
 ```
 
 ## Installation
